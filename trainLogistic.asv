@@ -1,0 +1,11 @@
+function [w, b, mu, sigma] = trainLogistic(train_data, train_label, learn_rate, max_iter)
+    [N, D] = size(train_data);
+    mu = mean(train_data, 1);
+    sigma = std(train_data, 0, 1);
+    train_data = (train_data - mu) ./ sigma;
+    w = zeros(D, 1);
+    b = 0;
+
+    % 梯度下降
+    for i 
+end

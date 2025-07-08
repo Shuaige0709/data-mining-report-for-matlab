@@ -1,0 +1,8 @@
+function pred = KNN(train_data, train_label, test_data, k)
+    M = size(test_data, 1);
+    prediction = zero(M, 1);
+
+    for i = 1 : M
+        dist = 
+    end
+end
